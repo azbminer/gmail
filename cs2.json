@@ -1,0 +1,11 @@
+{
+    "installed": {
+        "client_id": "670466083800-faoc9enamqmhhi5pffi85ii4pdmrhvol.apps.googleusercontent.com"
+        , "project_id": "gmail-1257"
+        , "auth_uri": "https://accounts.google.com/o/oauth2/auth"
+        , "token_uri": "https://accounts.google.com/o/oauth2/token"
+        , "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs"
+        , "client_secret": "JsZBIrP7IJ6R3oSlAKlfZYmW"
+        , "redirect_uris": ["urn:ietf:wg:oauth:2.0:oob", "http://localhost"]
+    }
+}

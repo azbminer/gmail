@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <style>
+        body {
+            width: 100%;
+            background-color: black;
+            color: white;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        img {
+            text-align: center;
+            width: 68%;
+            z-index: -100;
+        }
+        
+        ū #pic {
+            text-align: center;
+        }
+        
+        #header {
+            padding-left: 5%;
+            position: absolute;
+            height: 17%;
+            width: 100%;
+            border-bottom: 3px solid white;
+            font-size: 2.5vw;
+            z-index: 2;
+            filter: blur(-5px)
+        }
+        
+        #links {
+            float: right;
+            padding-right: 10%;
+        }
+        
+        button {
+            background-color: Transparent;
+            background-repeat: no-repeat;
+            border: 1px solid white;
+            cursor: pointer;
+            overflow: hidden;
+            color: black;
+            border-radius: 10%;
+            font-size: 1.5vw;
+            transition-duration: .4s;
+        }
+        
+        button:hover {
+            background-color: #4169E1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id=blur>
+        <div id="header">
+            <br /> Esprokets
+            <div id="links">
+                <button>Galleries</button>
+                <button>Who</button>
+                <button>What</button>
+                <button>Why</button>
+            </div>
+            <br />
+
+        </div>
+    </div>
+    <div id="pic">
+        REPLACE_ME_1
+    </div>
+</body>
+
+</html>
